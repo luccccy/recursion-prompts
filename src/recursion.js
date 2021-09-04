@@ -662,6 +662,22 @@ var binarySearch = function(array, target, min = 0, max = array.length - 1) {
   }
 };
 
+// var binarySearch = function(array, target) {
+//   var start = 0;
+//   var end = array.length - 1;
+//   while (start <= end) {
+//     var mid = Math.floor((start + end) / 2);
+//     if (array[mid] === target) {
+//       return mid;
+//     } else if (array[mid] > target) {
+//       end = mid - 1;
+//     } else {
+//       start = mid + 1;
+//     }
+//   }
+//   return null;
+// }
+
 
 // 39. Write a merge sort function.
 // mergeSort([34,7,23,32,5,62]) // [5,7,23,32,34,62]
